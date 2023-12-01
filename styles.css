@@ -17,4 +17,12 @@ gap: 10;}
 section{display: flex;
 flex-direction: column;
 border: palegreen;
-border-radius: 10%;}
+border-radius: 10%;
+position: relative}
+
+.card_bookmark {
+    position: absolut;
+    top: 20%;
+    right: 20%;
+    font-size: 20%;
+}
