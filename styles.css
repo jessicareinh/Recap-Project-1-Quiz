@@ -1,28 +1,68 @@
-h1 {color: blueviolet;
-background-color: lightblue ;
-margin: 0;
-height: 0;
-border-radius: 0 0 5% 5%;
-text-align: center;}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    color: darkgreen;
+    background-color:lightblue;
+    margin-top: 0;
+    height: 10%;
+    border-radius: 0 0 5% 5%;
+    text-align: center;
+    
+}
 
 body { margin: 0%;
 
 
+
 }
-div{display: flex;
-flex-direction: column;
-gap: 10;}
+section{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__bookmark {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 27px; 
+}
+
+.card__bookmark:hover{
+    background-color: red;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+}
 
 
-section{display: flex;
-flex-direction: column;
-border: palegreen;
-border-radius: 10%;
-position: relative}
+.navigation{
+    background-color:black;
+    color: #ffffff;
+    padding: 5px 14px;
+    border-radius: 5px; 
+    
+}
 
-.card_bookmark {
-    position: absolut;
-    top: 20%;
-    right: 20%;
-    font-size: 20%;
+.Bauchbinde{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 5%;
 }
