@@ -24,7 +24,6 @@ body { margin: 0%
 section{
     border-style: outset;
     border-color: gold;
-
     display: flex;
     flex-direction: column;
     position: relative;
@@ -46,6 +45,7 @@ div {
     margin: 10%;
     background-color:gold;
     border-radius: 50%;
+    transform: translate(50px, 100px);
 
 
 }
