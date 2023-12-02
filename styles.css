@@ -1,15 +1,17 @@
 * {
     box-sizing: border-box;
-    background-color: orchid;
+    background-color: rgb(247, 138, 244);
+    font-family: cursive;
 }
 
 h1{
-    color: orchid;
+    color: rgb(214, 67, 209);
     background-color:blueviolet;
     margin-top: 0;
     height: 10%;
     border-radius: 0 0 5% 5%;
     text-align: center;
+    width: 
     
 }
 
@@ -25,6 +27,9 @@ section{
     flex-direction: column;
     position: relative;
     align-items: center;
+    margin: 10%;
+    padding: 10%;
+    border-raidus: 2rem;
 }
 
 div {
@@ -32,7 +37,13 @@ div {
     flex-direction: column;
     gap: 10px;
 }
+.button { 
+    margin: 10%;
 
+    background-color: whitesmoke;
+
+
+}
 .card__bookmark {
     position: absolute;
     top: 10%;
