@@ -22,14 +22,19 @@ body { margin: 0%
 
 }
 section{
-    border: 5px solid black;
+    border-style: outset;
+    border-color: gold;
+
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
     margin: 10%;
     padding: 10%;
-    border-raidus: 2rem;
+    border-radius: 20%;
+    text-shadow: 20%;
+    border-width: medium;
+
 }
 
 div {
@@ -37,10 +42,10 @@ div {
     flex-direction: column;
     gap: 10px;
 }
-.button { 
+.click { 
     margin: 10%;
-
-    background-color: whitesmoke;
+    background-color:gold;
+    border-radius: 50%;
 
 
 }
@@ -66,8 +71,8 @@ nav{
 
 
 .navigation{
-    background-color:black;
-    color: #ffffff;
+    background-color: blueviolet;
+    color: rgb(214, 67, 209);
     padding: 5px 14px;
     border-radius: 5px; 
     
